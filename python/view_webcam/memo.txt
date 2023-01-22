@@ -1,0 +1,3 @@
+OpenCVは3以降。それ以前だと、IOError表示でエラーが出る。
+pip install opencv-python
+
