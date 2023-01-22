@@ -1,0 +1,13 @@
+arucoを使うにはOpenCVのバージョンを合わせる必要がある。
+参考：https://python-academia.com/opencv-aruco/
+
+$ python3
+import cv2
+cv2.__version__
+
+で確認すること。
+opencv_contrivをバージョンに合わせてインストールするｔこと
+drawMarkerが最新バージョンでは消えている。
+念の為、OpenCV3の最終バージョンで試したら成功した。
+
+pip3 install opencv-python==3.4.4.19 opencv-contrib-python==3.4.4.19
